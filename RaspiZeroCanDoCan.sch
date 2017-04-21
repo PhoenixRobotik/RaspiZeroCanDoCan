@@ -33,7 +33,6 @@ LIBS:Microchip
 LIBS:Panchip
 LIBS:PhoenixRobotik
 LIBS:STMicroelectronics
-LIBS:RaspiZeroCanDoCan-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -521,11 +520,11 @@ F 3 "" H 5350 4650 50  0000 C CNN
 $EndComp
 Text GLabel 4750 3450 0    60   Input ~ 0
 SPI_CS0
-Text GLabel 4750 3250 0    60   Input ~ 0
+Text GLabel 4750 3350 0    60   Input ~ 0
 SPI_MISO
 Text GLabel 4750 3550 0    60   Input ~ 0
 SPI_CLK
-Text GLabel 4750 3350 0    60   Input ~ 0
+Text GLabel 4750 3250 0    60   Input ~ 0
 SPI_MOSI
 $Comp
 L Crystal OSC1
